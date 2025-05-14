@@ -1,0 +1,16 @@
+apex_arc/
+├── data/
+│   ├── input/
+│   │   └── Top_25_HR_Projections__Full_Apex_Stack_.csv
+│   └── output/
+│       └── YYYY-MM-DD/
+│           ├── apex_top25_live_YYYY-MM-DD.csv
+│           ├── parlay_stacks_YYYY-MM-DD.csv
+│           ├── daily_narrative_YYYY-MM-DD.txt
+│           └── daily_summary_log_YYYY-MM-DD.txt
+├── scripts/
+│   ├── run_apex_daily.py
+│   ├── auto_narrative_generator.py
+│   └── data_fetcher.py
+├── requirements.txt
+└── .env
